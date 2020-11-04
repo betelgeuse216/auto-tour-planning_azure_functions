@@ -70,7 +70,7 @@ namespace FunctionApp1
 
             string responseMessage = string.IsNullOrEmpty(name)
                 ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
-                : $"Hey you, {name}. This HTTP triggered function executed successfully.";
+                : $"Hey girl, {name}. This HTTP triggered function executed successfully.";
 
             return new OkObjectResult(responseMessage);
         }
